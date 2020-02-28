@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+    <head>
+        <title>Something</title>
+        <link rel="stylesheet" type="text/css" href="css/styles3.css">
+        <meta charset="UTF-8">
+        <meta lang="en">
+        <meta name="viewport" content= width=device-width, intial-scale = 1.0>
+    </head>
+<body>
+    <input id="decompose" class="decompose" type="checkbox" checked>
+    <label for="decompose"> decompose (r+g+b)</label>
+    <div class="result">   
+        <div>rgb(<span class="value-r">255</span>,<span class="value-g">255</span>,<span class="value-b">255</span>)</div>
+        <div>#<span class="value-rhex">ff</span> <span class="value-ghex">ff</span> <span class="value-bhex">ff</span></div></div>
+<div class="colors">
+  <span id="red" class="r color"></span>
+  <span id="green" class="g color"></span>
+  <span id="blue" class="b color"></span>
+</div>
+<div class="panel">
+  <label class="label-r">
+    <span>decimal: <span id="value-r" class="value value-r">255</span></span>         <span>hex: <span id="value-rhex" class="value value-rhex">ff</span></span>
+    <span><span id="value-rhex-16" class="i16">15</span> * 16 + <span id="value-rhex-1" class="i1">15</span></span>
+    <input id="r" data-target="r" type="range" step="1" min="0" max="255" value="255">
+  </label>
+  <label class="label-g">
+    <span>decimal: <span id="value-g" class="value value-g">255</span></span>         <span>hex: <span id="value-ghex" class="value value-ghex">ff</span> </span>
+    <span><span id="value-ghex-16" class="i16">15</span> * 16 + <span id="value-ghex-1" class="i1">15</span></span>
+    <input id="g" data-target="g" type="range" step="1" min="0" max="255" value="255">
+  </label>
+  <label class="label-b">
+    <span>decimal: <span id="value-b" class="value value-b">255</span></span>         <span>hex: <span id="value-bhex" class="value value-bhex">ff</span></span>
+    <span><span id="value-bhex-16" class="i16">15</span> * 16 + <span id="value-bhex-1" class="i1">15</span></span>
+    <input id="b" data-target="b" type="range" step="1" min="0" max="255" value="255">
+  </label>
+</div>
+<script src="js/rgb.js"></script>
+</body>
