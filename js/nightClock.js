@@ -54,7 +54,7 @@ function drawTime(hours, minutes, seconds) {
     timeString += (minutes < 10) ? ":0" + minutes : ":" + minutes
     timeString += (seconds < 10) ? ":0" + seconds : ":" + seconds
     
-    ctx.font = "32px Orbitron, Arial, sans-serif"
+    ctx.font = "32px Helvetica, Arial, sans-serif"
     ctx.fillStyle = "#b58900"
     ctx.textAlign = "center"
     ctx.textBaseline = "middle"

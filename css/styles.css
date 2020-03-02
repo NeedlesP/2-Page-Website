@@ -75,7 +75,7 @@ span.slide:before {
 }
 .txt {
     position: relative;
-    transform: translatex(45vw);
+    transform: translatex(47vw);
 }
 .txt p:nth-child(1) {
     color: rgb(243, 76, 76);

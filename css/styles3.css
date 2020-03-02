@@ -5,6 +5,18 @@
     font-family: Source Code Pro, sans-serif;
     box-sizing: border-box;
   }
+  p{
+    transform: translateX(90vw);
+  }
+  a{
+    color: rgb(0, 179, 179);
+  }
+  a:hover{
+    color: aquamarine ;
+  }
+  a:active{
+    color: azure;
+  }
   * {
     box-sizing: inherit;
   }
